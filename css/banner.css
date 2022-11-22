@@ -1,0 +1,39 @@
+.banner{
+   background-color: var(--azul1);
+   color: var(--branco); 
+   text-align: center;
+   padding: 2.5em 2em;
+   
+   
+}
+.banner-titulo{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.banner-texto{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 1em 0;
+    
+}
+#banner-searchbar{
+        background-color: transparent;
+        border: 1px solid var(--branco);
+        color: var(--branco);
+        border-radius: 20px;
+        padding: 1em;
+        width: 100%;
+       
+       
+        
+}
+
+#banner-searchbar::placeholder{
+    background-image: url(../assets/img/Vector.svg);
+    background-position: 1em;
+    background-size: 1em;
+    background-repeat: no-repeat;
+    color: var(--branco);
+    text-align: center;
+}

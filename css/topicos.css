@@ -1,0 +1,38 @@
+
+.topicos{
+    background-color: var(--azul1);
+}
+
+.topicos h3{
+    color: var(--branco);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2em 2em 0 2em;
+}
+
+.topicos button{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.topicos-items{
+    margin: 2em 0.5em;
+    padding: 0 0 2em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.topicos-botoes button{
+    background-color: var(--laranja);
+    border: none;
+    border-radius: 5px;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+    padding: 1em;
+    width: 100%;
+}

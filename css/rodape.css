@@ -1,0 +1,12 @@
+footer{
+    border: var(--cinza) solid 1px;
+    color: var(--azul2);
+    text-align: center;
+    padding: 1em;
+
+}
+footer p{
+    font-size: 10px;
+    font-style: italic;
+    padding: 0.5em;
+}

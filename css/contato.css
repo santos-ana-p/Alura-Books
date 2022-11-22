@@ -1,0 +1,38 @@
+.contato{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2em;
+}
+
+.contato h3{
+font-size: 18px;
+font-weight: 500;
+color: var(--azul1);
+margin: 1em;
+}
+
+.contato p{
+    color: var(--azul1);
+}
+
+.contato input{
+    border: solid 2px var(--azul1);
+    border-radius: 30px;
+    margin: 2em;
+    padding: 0.5em;
+    text-decoration: none;
+    background-color: transparent;
+    
+}
+
+#contato-email::placeholder{
+    background-image: url(../assets/img/email.svg);
+    background-repeat: no-repeat;
+    background-position: 2% ;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    color: var(--azul1);
+    padding-left: 2.5em;
+}
+
