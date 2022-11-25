@@ -1,4 +1,4 @@
-# Alura Books
+# Alura Books *Em andamento - Work in Progress*
 ## Projeto de Conclusão do Curso: HTML e CSS: responsividade com mobile-first
 
 Neste projeto foi possível implementar todo  o conhecimento adquirido durante os estudos da Formação Front-End da Alura. 
