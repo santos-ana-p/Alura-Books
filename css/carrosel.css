@@ -109,10 +109,43 @@
     
   .swiper-pagination{
     margin: 5em 0 40em;
-    background-color: aqua;
   }
 
   .swiper-slide{
     width: 50%;
   }
+}
+
+@media screen and (min-width: 1024px) {
+    .carrosel , .carrosel2{
+        align-items: center;
+        padding: 2em 8em;
+        
+    }
+
+    .swiper-pagination{
+        margin-bottom: 27em;
+        padding-top: 1em;
+    }
+    
+    .swiper-button-prev,
+    .swiper-button-next {
+        background-color: var(--azul1);
+        border-radius: 50%;
+        color: var(--branco);
+        position: absolute;
+    }
+
+    .swiper-slide{
+        gap: 1em;
+        padding: 2em;
+    }
+    
+    section .carrosel-ultimos-lancamentos, .carrosel2-mais-vendidos {
+        font-size: 26px;
+    }
+
+    .card{
+        margin: 0 7em;
+    }
 }
